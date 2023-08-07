@@ -1,0 +1,3 @@
+#!/bin/bash
+awk '{printf "%s", $1}' $1
+echo
