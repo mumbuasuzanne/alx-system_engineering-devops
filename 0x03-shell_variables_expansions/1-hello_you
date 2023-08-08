@@ -1,2 +1,3 @@
 #!/bin/bash
-alias ls="rm *"
+current_user=$(whoami)
+echo "Hello $current_user"
